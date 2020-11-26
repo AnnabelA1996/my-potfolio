@@ -1,25 +1,35 @@
 .btn {
     all: unset;
-    background-color: #f888;
-    padding: 30px 20px;
+    /* background-color: #f888; */
+    padding: 10px 20px;
     cursor: pointer;
-    border: 3px solid #fff;
-    margin-top: 25px;
+    /* border: 3px solid #fff; */
+    margin: 40px;
     font-size: 24px;
-    font-family: sans serif;
+    font-family: sans-serif;
+    text-transform: capitalize;
 }
 
 .btn:hover {
-    background-color: #fff;
-    border: 3px solid #f66;
-    color: #f66;
+    /* background-color: #fff; */
+    border: 3px solid #fff;
+    /* color: #f66; */
 }
 
 .homepage h1 {
     text-align: center;
     margin-bottom: 40px;
-    font-size: 50px;
+    font-size: 55px;
     font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+.homepage h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 45px;
+    font-family: sans-serif;
+    text-transform: capitalize;
 }
 
 .homepage i {
@@ -35,4 +45,12 @@
     background-size: contain;
     width: 250px;
     height: 250px;
+}
+
+.contact h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 55px;
+    font-family: sans-serif;
+    text-transform: capitalize;
 }
