@@ -1,0 +1,38 @@
+.btn {
+    all: unset;
+    background-color: #f888;
+    padding: 30px 20px;
+    cursor: pointer;
+    border: 3px solid #fff;
+    margin-top: 25px;
+    font-size: 24px;
+    font-family: sans serif;
+}
+
+.btn:hover {
+    background-color: #fff;
+    border: 3px solid #f66;
+    color: #f66;
+}
+
+.homepage h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.homepage i {
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+.background-image {
+    background-image: url('https://picsum.photos/id/312/500/500');
+    background-position: center;
+    background-size: contain;
+    width: 250px;
+    height: 250px;
+}
