@@ -6,13 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my portfolio - contact</title>
     <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="assets/images/favicon.ico">
 </head>
 
 <body>
     <header></header>
     <main class="contact">
         <h3>contact me!</h3>
+        <form>
+            <div>
+                <label for="firstname"></label>
+            <input type="firstname">firstname
+            </div>
+            <div><label for="surname"></label>
+                <input type="surname">surname
+                
+                </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div>
+                <label for="phone">Enter your phone number:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+            </div>
+            <div class="form-group">
+                <label for="help">comments</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+
+        </form>
     </main>
     <footer></footer>
 </body>
