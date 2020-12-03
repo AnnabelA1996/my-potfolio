@@ -1,28 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>my portfolio - portfolio</title>
+    <html>
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>my portfolio</title>
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="./assets/css/main.css">
         <link rel="icon" href="./assets/images/favicon.png">
-    </head>
-<body>
-    
-<main class="container">
-
-    <figure class="main-image"></figure>
-        <img src="https://picsum.photos/id/312/500/500" alt="sample random photo of a coffee cup" width="250" height="250">
-    <figcaption>this is a photo of my coffee cup</figcaption>
-</figure>
-
-<div class="background-image"></div>
-<audio src="./assets/media/audio.ogg"controls></audio>
-<!-- <video src="./assets/media/sample-mp4-file.mp4" controls poster="assets/images/image2.jpg"></video> -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DroelB2uwx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe src="https://www.yoobee.ac.nz/" frameborder="0" width="500" height="500"></iframe>
-</main>
+        <script defer src="script.js"></script>
+      </head>
+      <body>
+    <section class="container">
+      <figure class="slides">
+        <img src="http://picsum.photos/id/1/640" alt="" width="200 height=" 200="">
+        <img src="http://picsum.photos/id/2/640" alt="" width="200 height=" 200="">
+        <img src="http://picsum.photos/id/3/640" alt="" width="200 height=" 200="">
+        <img src="http://picsum.photos/id/4/640" alt="" width="200 height=" 200="">
+        <img src="http://picsum.photos/id/5/640" alt="" width="200 height=" 200="">
+        <img src="http://picsum.photos/id/6/640" alt="" width="200 height=" 200="">
+      </figure>
+    </section>
+    <div class="popup">
+      <div class="overlay"></div>
+      <figure class="popup-slide">
+        <i class="fa fa-times fa-2x close"></i>
+        <img src="" width="640" height="480">
+      </figure>
+    </div>
+      </body>
+    </html>
 
 </body>
 </html>
